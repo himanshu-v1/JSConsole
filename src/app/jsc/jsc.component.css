@@ -1,0 +1,41 @@
+.division{
+  background-color: #e6e6e6;
+  height: 1px;
+  width: 100%;
+  justify-content: center;
+  opacity: 6;
+}
+.first{
+  height: 45.3vh;
+  background-color: #ffe6b3;
+  width: stretch;
+}
+.second{
+  height: 45vh;
+  background-color: #ffffcc;
+  width: stretch;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  overflow-wrap: normal;
+  padding-left: 3px;
+  padding-top: 10px;
+}
+.run{
+  width: 48px;
+  height: 17px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  font-size: 10px;
+  /*align-content: center;
+  justify-content: center;
+  align-self: center;*/
+  z-index: 1;
+  border-radius: 4px;
+  /*margin-left: 44%;*/
+  margin-top: -7px;
+}
+.text{
+  min-height: -webkit-fill-available;
+  min-width: -webkit-fill-available;
+}

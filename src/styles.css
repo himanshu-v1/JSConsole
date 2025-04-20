@@ -1,0 +1,31 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css");
+body{
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+input, button, submit{
+  border: none;
+}
+textarea{
+  resize:none;
+  border: none;
+}
+input:focus, textarea:focus{
+  outline: none;
+}
+div::-webkit-scrollbar, textarea::-webkit-scrollbar {
+  /*width: 0 !important;*/
+  display: none;
+}
+div, textarea {
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+::placeholder{
+  color: black;
+  opacity: 0.5;
+  font-size: 15px;
+  font-style: italic;
+}

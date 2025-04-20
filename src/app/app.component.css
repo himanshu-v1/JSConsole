@@ -1,0 +1,129 @@
+*{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 23px;
+  flex-direction: column;
+}
+.bg-clr{
+  background-color: firebrick; /*#6666ff;*/
+}
+.header{
+  height: 5.5vh;
+  align-content: space-between;
+  justify-content: center;
+  color: white;
+  position: relative;
+  border-radius: 0 0 3px 3px;
+  /*flex-direction: column;*/
+}
+.footer{
+  height: 3.99vh;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+.footer div{
+  font-size: 10px;
+  text-align-last: center;
+}
+.bar1, .bar2, .bar3{
+  background-color: white;
+  width: 15px;
+  height: 3px;
+  margin-bottom: 2px;
+}
+.burger{
+  /*display:inline-block;
+  align-self: center;
+  flex: 0;*/
+}
+.mid{
+  /*align-self: center;
+  justify-content: center;
+  flex:12;*/
+  font-size: 20px;
+}
+.cir1, .cir2, .cir3{
+  background-color: white;
+  width: 5px;
+  height: 5px;
+  border-radius: 6px;
+  margin-bottom: 3px;
+}
+.menu-open{
+  height: -webkit-fill-available;
+  width: 70%;
+  left: 0;
+  z-index: 2;
+  position: absolute;
+  transition: left 1s;
+}
+.menu-close{
+  height: -webkit-fill-available;
+  width: 70%;
+  left: -74%;
+  z-index: 2;
+  position: absolute;
+  transition: left 1s;
+}
+.options{
+  background-color: white;
+  /*width: 93px;
+  height: 115px;*/
+  width: 120px;
+  height: 128px;
+  position: fixed;
+  z-index: 50;
+  top: 4.8vh;
+  right: 5px;
+  padding-left: 9px;
+  padding-top: 9px;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: wheat -2px 2px 12px;
+  /*transition: width 0.1s, height 0.1s, right 0s;*/
+  transition: width 0.1s, height 0.1s;
+}
+.last-li{
+  padding-bottom: 5px;
+}
+.first-li{
+  padding-right: 10px;
+}
+/*.options ul{
+  padding-left: 9px;
+  padding-top: 9px;
+  height: auto;
+  width: auto;
+  display: none;
+}*/
+.options-b4{
+  background-color: white;
+  width: 0px;
+  height: 0px;
+  position: fixed;
+  z-index: 50;
+  top: 4.8vh;
+  right: -10px;
+  padding-left: 0;
+  padding-top: 0;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: wheat -2px 2px 12px;
+  /*transition: width 0.1s, height 0.1s, right 0.2s;*/
+  transition: width 0.1s, height 0.1s;
+}
+hr{
+  background-color: black;
+  /* height: 1px; */
+  width: -webkit-fill-available;
+  padding-left: 0;
+  margin-left: -9px;
+}
+/*
+*Temp
+*/
+
+/*
+*Temp
+*/

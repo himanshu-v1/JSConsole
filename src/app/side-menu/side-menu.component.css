@@ -1,0 +1,52 @@
+.sidemenu{
+  height:100%;
+  width:100%;
+  background-color: black;
+  opacity: 0.95;
+  color: white;
+}
+#shadow{
+  /*text-shadow: red -4px -6px 6px;*/
+}
+.cross{
+  background-image: icons.ain;
+  color: firebrick;
+}
+.float{
+  float: right;
+}
+/*.bar1, .bar2{
+  background-color: white;
+  width: 15px;
+  height: 3px;
+  margin-bottom: 2px;
+} */
+.custom-shadow{
+  box-shadow: -0.5rem -0.5rem 0.5rem 13px black;
+}
+.header{
+  height: 4.0vh;
+  align-content: space-between;
+  justify-content: center;
+  color: white;
+  position: relative;
+  border-radius: 0 0 3px 3px;
+  /*flex-direction: column;*/
+  font-size: 20px;
+}
+ul{
+  list-style: none;
+  font-family: monospace;
+  font-size: 16px;
+}
+li{
+  margin-bottom: 16px;
+}
+hr{
+  background-color: white;
+  opacity: 0.4;
+}
+#disabledMenu{
+  opacity: 0.4;
+  text-shadow: none;
+}

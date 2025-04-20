@@ -1,0 +1,47 @@
+<div class="sidemenu custom-shadow">
+  <div class="header p-2 mb-2">
+    <div class="cross glyphicon glyphicon-remove" title="close" (click)='closeClick($event)'></div>
+    <div class="cross float glyphicon glyphicon-cog" title="settings"></div>
+  </div>
+  <div id="shadow">
+    <div>
+      <hr>
+    </div>
+    <div>
+      <ul>
+        <li routerLink="/home" (click)='closeClick($event)'>
+          Home
+        </li>
+      </ul>
+    </div>
+    <div>
+      <hr>
+    </div>
+    <div>
+      <ul>
+        <li routerLink="/JSC" (click)='closeClick($event)'>
+          JavaScript
+        </li>
+        <li id="disabledMenu">
+          Calc
+        </li>
+      </ul>
+    </div>
+    <div>
+      <hr>
+    </div>
+    <div>
+      <ul>
+        <li routerLink="/html" (click)='closeClick($event)'>
+          HTML DOM
+        </li>
+        <li id="disabledMenu">
+          Create a New Project
+        </li>
+        <li id="disabledMenu">
+          Open Project
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

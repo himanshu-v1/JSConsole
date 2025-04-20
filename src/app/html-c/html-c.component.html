@@ -1,0 +1,11 @@
+<div class="body">
+  <div class="first">
+    <textarea name="editor" [placeholder]="placeholder" class="text" [attr.readonly]='consta.menuFlag'
+        [(ngModel)]="inputTxt"></textarea>
+  </div>
+  <div class="division" ng-click="">
+      <input id="run" type="submit" name="button" value="Run >>" class="run shadow" (click)="run()" #runEl/>
+  </div>
+  <div id="output" class="second">
+  </div>
+</div>

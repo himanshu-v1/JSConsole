@@ -1,0 +1,42 @@
+<!-- https://docs.nativescript.org/angular/core-concepts/angular-navigation.html#page-router-outlet -->
+
+<div> <!--[hidden]='consta.menuFlag=="false"'-->
+  <app-side-menu class="menu-close" id="menu" [tag]='this'>
+  </app-side-menu>
+</div>
+
+<div style="">
+  <div class="header shadow p-3 bg-clr"> <!--mb-2-->
+    <div class="burger" (click)='onMenuClick($event)'>
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <div class="mid">
+      {{ title }}
+    </div>
+    <div class="burger" (click)='onOptionsClick($event)'>
+      <div class="cir1"></div>
+      <div class="cir2"></div>
+      <div class="cir3"></div>
+    </div>
+  </div>
+
+  <!--<router-outlet></router-outlet>-->
+  <page-router-outlet></page-router-outlet>
+
+  <div class="footer bg-clr">
+    &copy; JSConsole
+  </div>
+</div>
+
+<!--<div class="options-b4" id="opts">-->
+  <ul class="options-b4" id="opts">
+    <li>Default Script</li>
+    <li><hr></li>
+    <li>Save</li>
+    <li><hr></li>
+    <li>Clear</li>
+  </ul>
+<!--</div>-->
+

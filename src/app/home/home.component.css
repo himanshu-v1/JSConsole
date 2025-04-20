@@ -1,0 +1,16 @@
+.home{
+    width: -webkit-fill-available;
+    height: 90.5vh;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /*text-shadow: grey -4px 6px 4px;*/
+}
+h6{
+  text-shadow: none;
+  opacity: 0.3;
+}
